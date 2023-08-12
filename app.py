@@ -40,7 +40,7 @@ df_selection = df.query(
 
 
 # ----- Main Page ------
-st.title(":bar_chart: Salary Analysis")
+st.title(f":bar_chart: Salary Analysis of {job}")
 st.markdown("##")
 
 # Resluts
@@ -56,7 +56,7 @@ with lc:
 with mc:
     st.subheader(f"Average Rating: {average_rating} {star_rating}")
 with rc:
-    st.subheader(f"Average Salary for {job}: {average_salary}") 
+    st.subheader(f"Average Salary: {average_salary}") 
 
 st.markdown("---")   
 
